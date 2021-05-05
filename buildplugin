@@ -23,6 +23,7 @@ PLUGIN_FILES = ['bibi',
             'ChangeLog.txt',
             'bibi_license.txt',
             'README.md',
+            'Bidi_README.md',
             'plugin.py',
             'plugin.xml',]
 
