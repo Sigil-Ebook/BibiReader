@@ -14,7 +14,7 @@ import zipfile
 
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
-PLUGIN_NAME = 'BidiReader'
+PLUGIN_NAME = 'BibiReader'
 TEMP_DIR = os.path.join(SCRIPT_DIR, PLUGIN_NAME)
 
 # Add files/folder that should be included in the plugin here
