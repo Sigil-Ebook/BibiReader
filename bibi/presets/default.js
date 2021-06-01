@@ -135,7 +135,7 @@ Bibi.preset({
 // * keep your Bibi and website not to open files which you can not guarantee its security.
 //----------------------------------------------------------------------------------------------------------------------------------------------
 
-/* !!!! BE CAREFUL !!!! */ "allow-scripts-in-content" : false, // true or false (false is recommended).
+/* !!!! BE CAREFUL !!!! */ "allow-scripts-in-content" : true, // true or false (false is recommended).
 // If you change its value `true`, Bibi does not remove scripts natively-included in EPUB.
 // It makes Bibi to be able to open EPUBs including useful scripts.
 // But on the other hand, it may also allow XSS of malicious EPUB in some cases.

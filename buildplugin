@@ -25,7 +25,9 @@ PLUGIN_FILES = ['bibi',
             'README.md',
             'Bibi_README.md',
             'plugin.py',
-            'plugin.xml',]
+            'plugin.xml',
+            'plugin.svg',
+            'plugin.png']
 
 def findVersion():
     _version_pattern = re.compile(r'<version>([^<]*)</version>')

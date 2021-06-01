@@ -1,2 +1,6 @@
+v020
+  - added plugin.svg and plugin.png contributed by BeckyEbook
+  - enable javascripts in epubs by default (per the epub3 standard)
+  
 v010
   - first public release of BidiReader plugin for Sigil
