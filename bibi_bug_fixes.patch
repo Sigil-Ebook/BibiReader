@@ -1,0 +1,29 @@
+--- __src/bibi/resources/scripts/bibi.heart.js.orig	2021-06-14 09:07:26.000000000 -0400
++++ __src/bibi/resources/scripts/bibi.heart.js	2021-06-14 09:53:22.000000000 -0400
+@@ -691,7 +691,7 @@
+     if(B.Type != 'EPUB') B.ZineData = { Source: { Path: 'zine.yaml' } };
+     if(BookDataFormat == 'URI') {
+         // Online
+-        if(O.Local) return reject(`Bibi can't open books via ${ D['book'] ? 'data-bibi-book' : 'URL' } on local mode`);
++        /* if(O.Local) return reject(`Bibi can't open books via ${ D['book'] ? 'data-bibi-book' : 'URL' } on local mode`); */
+         B.Path = BookInfo.Book;
+         const RootSource = (B.Type == 'Zine' ? B.ZineData : B.Container).Source;
+         const InitErrors = [], initialize_as = (FileOrFolder) => ({
+@@ -5664,7 +5664,7 @@
+                 Patterns: [
+                     { Attribute: 'href',           Extensions: 'css' },
+                     { Attribute: 'src',            Extensions: 'svg' },
+-                    { Attribute: 'src|xlink:href', Extensions: 'gif|png|jpe?g' }
++                    { Attribute: 'src|xlink:href', Extensions: 'gif|png|jpe?g|svg' }
+                 ]
+             }]
+         },
+@@ -5678,7 +5678,7 @@
+                 Patterns: [
+                     { Attribute: 'href',           Extensions: 'css' },
+                     { Attribute: 'src',            Extensions: 'js|svg' },
+-                    { Attribute: 'src|xlink:href', Extensions: 'gif|png|jpe?g|mp([34]|e?g)|m4[av]' },
++                    { Attribute: 'src|xlink:href', Extensions: 'gif|png|jpe?g|svg|mp([34]|e?g)|m4[av]' },
+                     { Attribute: 'poster',         Extensions: 'gif|png|jpe?g' }
+                 ]
+             }]

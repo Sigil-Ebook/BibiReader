@@ -1,9 +1,9 @@
 
 **[Plugin] Bibi Reader - a version of BiBi's Epub Reader for Sigil **
 
-Updated: May 5, 2021
+Updated: June 14, 2021
 
-Current Version: "0.1.0"
+Current Version: "0.3.0"
 
 This plugin implements an epub3 reader for the epub currently being edited in Sigil.
 It uses PyQt5 and PyQtWebengine to create a browser like main window and then loads
@@ -53,5 +53,3 @@ The remainder of the Bibi README follows in case you would like to get involved 
     - [Polyfill Array.prototype.includes](https://github.com/latusinski/polyfill-array-includes) : © Kevin Latusinski / Licensed under [the MIT License](https://www.npmjs.com/package/polyfill-array-includes)
     - [String.prototype.padStart](https://github.com/KhaledElAnsari/String.prototype.padStart) : © Khaled Al-Ansari / Licensed under [the MIT License](https://github.com/KhaledElAnsari/String.prototype.padStart/blob/master/LICENSE)
     - [url-polyfill](https://github.com/lifaon74/url-polyfill) : © Valentin Richard / Licensed under [the MIT License](https://github.com/lifaon74/url-polyfill/blob/master/LICENSE)
-
-

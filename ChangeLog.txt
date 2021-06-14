@@ -1,3 +1,6 @@
+v030
+  - added bug fix from RbnJrg to support svg wrappers arund svg
+
 v020
   - added plugin.svg and plugin.png contributed by BeckyEbook
   - enable javascripts in epubs by default (per the epub3 standard)
