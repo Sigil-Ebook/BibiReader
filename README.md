@@ -1,12 +1,12 @@
 
 **[Plugin] Bibi Reader - a version of BiBi's Epub Reader for Sigil **
 
-Updated: June 14, 2021
+Updated: March 17, 2022
 
-Current Version: "0.3.0"
+Current Version: "0.4.0"
 
 This plugin implements an epub3 reader for the epub currently being edited in Sigil.
-It uses PyQt5 and PyQtWebengine to create a browser like main window and then loads
+It uses PyQt5 and PyQtWebengine or PySide6 to create a browser like main window and then loads
 Bibi's Epub Reader project to implement the epub reader.
 
 See https://github.com/satorumurmur/bibi
